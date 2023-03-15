@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagenes/shuttle-space-solid (1).svg">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    
+    <div class="loader-section" >
+        <span class="loader"></span>
+     </div>
+    <!--Menu encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-shuttle-space"></i>
+                <a href="#">Cristian</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio"onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+                
+            </div>
+        </header>
+    </div>
+    <!-- Seccion inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+            <img src="imagenes/328067540_173378308755970_5328103877407187228_n.jpg" alt="">
+        </div>
+        <h1>Cristian Camargo</h1>
+        <h2>Programador Frontend y Diseñador Grafico</h2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    </section>
+    <!-- Seccion sobre mi  -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenedor-seccion">
+            <h2>Sobre Mi</h2>
+            <p><Span>Hola Mundo 😎, Soy Cristian Camargo.</Span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sed, maiores voluptatum cupiditate rem repellat. Qui assumenda illum voluptatem voluptates a nam quis eaque tempore provident fugit. Quidem, voluptate alias!</p>
+            <div class="fila">
+                <!-- Datos personales -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            27-10-2002
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +57 3023029945
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            example@example.com
+                        </li>
+                        <li>
+                            <strong>linkedin</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirreción</strong>
+                            cra 3b #90-60 Sur
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Freelance</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Juegos</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>Fotografia</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <span>Diseño</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>Tecnologia</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <button class="download-button" onclick="window.open('https://drive.google.com/file/d/1HSbkloBb_MUnwmg17LPFv6j3iydZQ-go/view?usp=share_link', '_blank')">
+                <div class="docs"><svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line y2="13" x2="8" y1="13" x1="16"></line><line y2="17" x2="8" y1="17" x1="16"></line><polyline points="10 9 9 9 8 9"></polyline></svg> Docs</div>
+                <div class="download">
+                  <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line y2="3" x2="12" y1="15" x1="12"></line></svg>
+                </div>
+              </button>
+        </div>
+    </section>
+    <!-- Seccion Skills -->
+    <section class="skilss" id="skills">
+        <div class="contenedor-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Tecnical skills -->
+                <div class="col">
+                    <h3>Tecnical Skills</h3>
+                    <div class="skills">
+                        <span>Javascripts</span>
+                        <div class="barra-skills">
+                            <div class="progreso ">
+                                <span>57%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Html5</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>CSS3</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Photoshop</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Wordpress</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profesional skills -->
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skills">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>57%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>comunicacion</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Creatividad</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Dedicacion</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Comunity Manager</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion curriculum -->
+    <section class="curriculum" id="curriculum">
+        <div class="contenedor-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Adsi</h4>
+                        <span class="casa">Sena</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias totam nobis ipsum accusamus molestiae hic maiores, deleniti ipsam impedit libero dicta perspiciatis nulla quaerat. Blanditiis molestias nihil quas nesciunt.</p>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller</h4>
+                        <span class="casa">Colegio San Alberto Magno</span>
+                        <span class="fecha">2013 - 2019</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias totam nobis ipsum accusamus molestiae hic maiores, deleniti ipsam impedit libero dicta perspiciatis nulla quaerat. Blanditiis molestias nihil quas nesciunt.</p>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Web Manager y Comunty Manager</h4>
+                        <span class="casa">Colegio San Alberto Magno</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias totam nobis ipsum accusamus molestiae hic maiores, deleniti ipsam impedit libero dicta perspiciatis nulla quaerat. Blanditiis molestias nihil quas nesciunt.</p>
+                        <div class="contenedord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Camarografo </h4>
+                        <span class="casa">Palante Posdcast</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias totam nobis ipsum accusamus molestiae hic maiores, deleniti ipsam impedit libero dicta perspiciatis nulla quaerat. Blanditiis molestias nihil quas nesciunt.</p>
+                        <div class="contenedord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion portafolio -->
+    <section class="portafolio" id="portafolio">
+        <div class="contendor-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                <img src="/imagenes/Galeria/Argenitna Campeon 1.2.png" alt="">
+                <div class="overlay">
+                    <h3>diseño creativo</h3>
+                    <p>fotografo</p>
+                </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/imagenes/Galeria/FINAL FIFA POST.png" alt="">
+                    <div class="overlay">
+                        <h3>diseño creativo</h3>
+                        <p>fotografo</p>
+                    </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="/imagenes/Galeria/PCS.png" alt="">
+                        <div class="overlay">
+                            <h3>diseño creativo</h3>
+                            <p>fotografo</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="/imagenes/Galeria/junior millo modo historia.png" alt="">
+                        <div class="overlay">
+                            <h3>diseño creativo</h3>
+                            <p>fotografo</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="/imagenes/Galeria/post Promo.png" alt="">
+                        <div class="overlay">
+                            <h3>diseño creativo</h3>
+                            <p>fotografo</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="/imagenes/Galeria/Somos 12k post.png" alt="">
+                        <div class="overlay">
+                            <h3>diseño creativo</h3>
+                            <p>fotografo</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <!-- Form -->
+                    <form action="">
+                        <input type="text" placeholder="Tu Nombre">
+                        <input type="text" placeholder="Numero de Telefono">
+                        <input type="" placeholder="Correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
+                        <button>
+                            enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.3140185219954!2d-74.82680048465637!3d10.939635159149983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d2dedff4e0e3%3A0xb70b077cebaa210f!2sCra.%203b%20%2390-60%2C%20Metropolitana%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1678420808271!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                San Luis - Barranquilla
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                +57 3023029945
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                example@example.com
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba"> 
+            <i class="fa-solid fa-arrows-up-to-line"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="derechos">
+            <a href="#">©Cristian Camargo</a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
