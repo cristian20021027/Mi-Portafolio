@@ -38,6 +38,5 @@ window.onscroll = function(){
 }
 function pageLoaded() {
     let loaderSection = document.querySelector('.loader-section');       loaderSection.classList.add('loaded');
-  }
-   
-  document.onload = pageLoaded();
+}
+document.onload = pageLoaded();
