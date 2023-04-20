@@ -34,57 +34,56 @@ z-index:-1;
     height: 44px;
     animation: spinner-y0fdc1 2s infinite ease;
     transform-style: preserve-3d;
-   }
-   
-   .spinner > div {
-    background-color: rgba(0, 162, 255, 0.2);
+}
+
+.spinner > div {
+    background-color: rgba(0, 255, 115, 0.2);
     height: 100%;
     position: absolute;
     width: 100%;
-    border: 2px solid #1ca4b6;
-   }
-   
-   .spinner div:nth-of-type(1) {
+    border: 2px solid #00de64;
+}
+
+.spinner div:nth-of-type(1) {
     transform: translateZ(-22px) rotateY(180deg);
-   }
-   
-   .spinner div:nth-of-type(2) {
+}
+.spinner div:nth-of-type(2) {
     transform: rotateY(-270deg) translateX(50%);
     transform-origin: top right;
-   }
-   
-   .spinner div:nth-of-type(3) {
+}
+
+.spinner div:nth-of-type(3) {
     transform: rotateY(270deg) translateX(-50%);
     transform-origin: center left;
-   }
-   
-   .spinner div:nth-of-type(4) {
+}
+
+.spinner div:nth-of-type(4) {
     transform: rotateX(90deg) translateY(-50%);
     transform-origin: top center;
-   }
-   
-   .spinner div:nth-of-type(5) {
+}
+
+.spinner div:nth-of-type(5) {
     transform: rotateX(-90deg) translateY(50%);
     transform-origin: bottom center;
-   }
-   
-   .spinner div:nth-of-type(6) {
+}
+
+.spinner div:nth-of-type(6) {
     transform: translateZ(22px);
-   }
-   
-   @keyframes spinner-y0fdc1 {
+}
+
+@keyframes spinner-y0fdc1 {
     0% {
-     transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+    transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
     }
-   
+
     50% {
-     transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+    transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
     }
-   
+
     100% {
-     transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+    transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
     }
-   } 
+} 
   /* MENU */
 .contenedor-header{
     background: transparent;
@@ -637,6 +636,9 @@ z-index:-1;
     display: block;
     border-radius: 20px;
 }
+.portafolio .galeria  a{
+    color: white;
+}
 .portafolio .galeria .proyecto .overlay{
     position:absolute;
     top: 0;
@@ -647,7 +649,7 @@ z-index:-1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 0.8s;
+    transition: 0.5s;
     letter-spacing: 3px;
     opacity:0;
     border-radius: 20px;
